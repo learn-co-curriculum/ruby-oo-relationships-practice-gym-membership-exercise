@@ -1,6 +1,6 @@
 
 class Lifter
-
+  @@all = []
 
 
   attr_reader :name, :lift_total
@@ -8,9 +8,12 @@ class Lifter
   def initialize(name, lift_total)
     @name = name
     @lift_total = lift_total
-
+    @@all << self
   end
-
+  def sign_up(cost, gym)
+    #Create membership
+    Membership.new(cost, self, gym)
+  end
   def memberships
     #Access membership => [memberships]
     #Select all memberships for specific member
@@ -31,6 +34,8 @@ class Lifter
     end
   end
 
-
+  def self.all 
+    @@all
+  end
 
 end
