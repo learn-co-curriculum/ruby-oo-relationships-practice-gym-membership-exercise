@@ -21,5 +21,16 @@ class Lifter
 
   end
 
+  def gyms
+    #Access the Memberships.all array
+    #Determine whether or not the memberships are mine/lifters
+    my_memberships = self.memberships
+    #create array of gyms from the memberships array
+    my_memberships.map do |m|
+      m.gym
+    end
+  end
+
+
 
 end
