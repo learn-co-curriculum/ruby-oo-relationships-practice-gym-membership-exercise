@@ -13,6 +13,13 @@ class Gym
     ALL
   end
 
-  
+  def memberships
+    #Access all memberships => [Memberships]
+    #determine wheter or not the membership belongs to this gym (self)
+    Membership.all.select do |m|
+      m.gym == self
+    end
+  end
+
 
 end
