@@ -1,18 +1,9 @@
+# You don't need to require any of the files in lib or pry.
+# We've done it for you here.
 require_relative '../config/environment.rb'
 
-<<<<<<< HEAD
-=======
-def reload
-  load 'config/environment.rb'
-end
-
-jordan = Lifter.new("Jordan", 9999999)
-twenty4 = Gym.new("24 Hour Fitness")
-hole_in_pocket = Membership.new(40, jordan, twenty4)
-
-
->>>>>>> parent of 39e6e66... skfjksdf
-
+# test code goes here
 
 binding.pry
- puts "amazing"
+
+puts "Gains!"
