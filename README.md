@@ -1,5 +1,9 @@
 # DO YOU EVEN LIFT!?
 
+<p align="center">
+  <img src="https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/gym-membership-exercise/Image_122_GymGoers.png" alt="Anupam Mahapatra on Unsplash" width="500"/>
+</p>
+
 Word has just come from the higher-ups, and you're in charge of building out a domain that keeps track of weightlifters and the gyms they lift at.  Yes gyms. Everyone knows you need a weekday gym and a weekend gym. And one for when you're traveling, and one that you go to just to show off.  Oh, and that one with a really great steam room.  Gotta love the steam room.
 
 ## Setup (Code Overview)
